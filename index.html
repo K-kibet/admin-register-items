@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register Items Project</title>
+    <script src="https://kit.fontawesome.com/8d3cb51f30.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="sidebar-form">
+        <form class="contentbar-form" id="items-form">
+          <h4 class="titlebar-form">Register products</h4>
+          <label>Product name</label>
+          <input class="inputbar-product" type="text" />
+          <label>Product description</label>
+          <textarea class="areabar-description"></textarea>
+          <label>Quantity</label>
+          <input class="inputbar-quantity" type="number" />
+          <label>Price</label>
+          <input class="inputbar-price" type="number" />
+          <input class="btn-submit" type="submit">Submit</input>          
+        </form>
+      </div>
+      
+      <div class="productsbar-output">
+        <h4 id="output-items-title">Your items</h5>
+        <div class="inputbar-field-container">
+          <input type="text" name="filter" id="filter" />
+          <label for="filter">Filter Products</label>
+        </div>
+        <div class="collection"></div>
+        
+        
+        <div class="btn-clear-position">
+        <a href="#" class="clear-items btn-black">Clear Products</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-position">
+      <footer class="footer">
+        Developed in 2020 | All rights reserved
+      </footer>
+    </div>
+    <script src="register.js"></script>
+  </body>
+</html>
